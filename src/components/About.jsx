@@ -15,7 +15,7 @@ function About() {
                 <h2>Priyanshu Mithagari</h2>
 
                 <p className="artist-title">
-                    Fine Artist | Portrait & Landscape
+                    Fine Artist | Portraits & Landscapes
                 </p>
             </div>
 

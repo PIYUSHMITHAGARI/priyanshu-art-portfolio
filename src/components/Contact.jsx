@@ -4,7 +4,7 @@ import { FaPhone, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 function Contact() {
     const phoneNumber = "8180068563"; // 👉 replace with your number (with country code)
-    const message = "Hello, bhaiya painter! I am interested in your artwork. Can we discuss more?";
+    const message = "Hello, I am interested in your artwork. Can we discuss more?";
 
     return (
         <div className="contact-container">
