@@ -29,9 +29,19 @@ function Contact() {
                     <FaWhatsapp className="contact-icon" />
                     <h3>WhatsApp</h3>
 
-                    <button className="whatsapp-btn">
-                        Message on WhatsApp
-                    </button>
+
+                    <a
+                        href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+                            message
+                        )}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="whatsapp-btn">
+                            Message on WhatsApp
+                        </button>
+                    </a>
+
                 </div>
 
             </div>
