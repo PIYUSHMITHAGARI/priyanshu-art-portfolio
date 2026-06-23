@@ -1,0 +1,109 @@
+/* Main Container */
+.cart-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Title */
+.cart-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Cart Item Card */
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+/* Image */
+.cart-item img {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Info Section */
+.cart-info {
+    flex: 1;
+}
+
+.cart-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.cart-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* Quantity Controls */
+.qty-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.qty-controls button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ff7a00;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qty-controls span {
+    font-size: 16px;
+}
+
+/* Remove Button */
+.remove-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Total Section */
+.cart-total {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.cart-total h2 {
+    margin-bottom: 10px;
+}
+
+/* Pay Button */
+.pay-btn {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pay-btn:hover {
+    opacity: 0.9;
+}
+
+/* Empty Cart */
+.empty-cart {
+    text-align: center;
+    color: #888;
+    margin-top: 40px;
+}

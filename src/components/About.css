@@ -1,0 +1,131 @@
+/* Main container */
+.about-container {
+    background: #faf7f7;
+    color: rgb(22, 21, 21);
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* 🔥 PROFILE SECTION */
+.profile-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid orange;
+    box-shadow: 0 8px 20px rgba(255, 165, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.profile-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.profile-section p {
+    color: #1a1919;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* 🔥 SECTION */
+.section {
+    margin-top: 50px;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: orange;
+}
+
+/* 🔥 CARD CONTAINER */
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Awards & Experience cards side by side */
+.section .card {
+    background: #f2f1f1;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Wrapper for cards */
+.section {
+    align-items: center;
+}
+
+/* FLEX ROW */
+.section>.card {
+    margin: 10px;
+}
+
+/* Put cards side by side */
+.section {
+    gap: 20px;
+}
+
+/* Make cards in row */
+.section {
+    flex-wrap: wrap;
+}
+
+/* Image styling */
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Text inside card */
+.card p {
+    padding: 15px;
+    color: #111010;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* 🔥 RESPONSIVE */
+@media (min-width: 768px) {
+    .section {
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .section h2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .profile-section h2 {
+        font-size: 28px;
+    }
+
+    .profile-section p {
+        font-size: 16px;
+    }
+}

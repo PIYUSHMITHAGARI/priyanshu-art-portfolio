@@ -1,0 +1,54 @@
+/* Navbar container */
+.navbar {
+    background-color: #201f1f;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Nav layout */
+.navbar nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Logo / Title */
+.navbar h1 {
+    color: rgb(240, 165, 24);
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+/* Links container */
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+.navbar nav a:hover {
+    color: orange;
+}
+
+/* Active feel (optional) */
+.navbar nav a:active {
+    transform: scale(0.95);
+}
+
+/* Responsive (mobile) */
+@media (max-width: 768px) {
+    .navbar nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar nav a {
+        margin: 10px 0;
+    }
+}
