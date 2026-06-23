@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://priyanshu-art-portfolio.vercel.app/sitemap.xml
